@@ -1,0 +1,945 @@
+{
+  "version": "0.7.4",
+  "welcomePresentation": {
+    "trigger": "applied SVG content identity, independent of UI theme or filename",
+    "wordmark": "NANA7MI",
+    "defaultRestores": true,
+    "userIdentityUnchanged": true,
+    "asset": {
+      "file": "assets/welcome-nana7mi.png",
+      "sha256": "71fde826ddf1fbb51d19d84fcc0b6b752f4418ab5827142bdc48193b5ba0f76d",
+      "method": "imagegen background removal",
+      "pixelLossless": false
+    },
+    "localSvgBundled": false
+  },
+  "artifacts": {
+    "MilkyGreen-0.7.4-macos-arm64.app.zip": {
+      "bytes": 136274377,
+      "sha256": "556d2da7563c3347c0a4e00257140235c615696b86327c373b3ddd2d2456db85"
+    },
+    "MilkyGreen-0.7.4-windows-x64-portable.exe": {
+      "bytes": 102866010,
+      "sha256": "c7e8efddd1bca944704a2488d7cafda3d4d81189b328c38dbacc95e13f37c60b"
+    },
+    "MilkyGreen-0.7.4-windows-x64.zip": {
+      "bytes": 158778642,
+      "sha256": "52a5d89daeefea99b32e455b56e90ed856aab4e95bebcca7ef9d25491e146d15"
+    },
+    "MilkyGreen-0.7.4-handoff.zip": {
+      "bytes": 33934,
+      "sha256": "1f1ad3a59c6163c5d5688f86d1063383f27084ea13232b2ab44985baad6406d4"
+    }
+  },
+  "asarSha256": {
+    "windows": "5f4d2a7033c0ef59957ba8d80f97b2b12d8612f3f4afd87e41f60004011a50d3",
+    "macos": "e96578a6973ab1972bc0da2a34ddb85b419c02231ee0ca6a22d79e9735f4f09a"
+  },
+  "runtimePayloadFiles": {
+    "windows": 377,
+    "macos": 375
+  },
+  "handoffFiles": {
+    "用户接入说明.md": "5d60f520476d34fb4e624e0e7df4f7fed2100508c16a1ddb80207b586cbe8e64",
+    "AGENT-HANDOFF.md": "26dc5180690795a3d219e5a83a7315059c5eb2b451e67629d08d1d64776f2c7b",
+    "templates/README.md": "da977e57d1bad448ac90710bf76806be77acc9fd6b24af6f751d800c08be9c91",
+    "templates/connections.example.json": "f97986b9fc060b0508e9236cac15dc11cb1d4dfa4f389723edaad1473c07372e",
+    "templates/fish-settings.example.json": "0a943c27efb8f1b92ec11b766714f531bf7428b4b4519234919442ec1faf186a",
+    "templates/api-listener.env.example": "f59a5f45da64a0984a5231283ba873992a5cac01c4803f81e6bd158b941687be",
+    "templates/api-shared-profile.env.example": "ebf4ba9ed08338cce37051dd7a3d8a33a4d018bb292ef4a407bd5ad742af3d29",
+    "templates/profile.yaml.example": "00dbd6305af8eded4fc796d3532df616628a6a4bcc1a5e7b7661427f66985b6e",
+    "templates/voice/voxcpm2.example.json": "3803bbc82504630bf0d2bda3d60711e81e4c67e1e7f13d4960bfff32a19ea841",
+    "templates/voice/asr-sensevoice.example.json": "adaa0d439b2bdc73f64c7440731539da2bfb141c259080467a6c27dd5415ac65",
+    "templates/voice/asr-nano.example.json": "a21d1adf1b8014f9d25a6b05537a287543eb37930330660d825460e1a8414f84",
+    "tools/setup-hermes-api.py": "4291990b7a293e6a897a038629910d0f9332ed577f47494d531e3b16f6aee88e"
+  },
+  "verification": {
+    "macos": {
+      "payloadHashes": true,
+      "asarAllowlist": true,
+      "privateDataScan": true,
+      "staticReferences": true,
+      "thirdPartyNotices": true,
+      "sourceSnapshot": true,
+      "executableArchitecture": true,
+      "nativeHelperArchitecture": true,
+      "bundleMetadata": true,
+      "originalIcon": true,
+      "codeSignature": true,
+      "archiveIntegrity": true,
+      "appZipRoundTrip": true,
+      "hostRuntime": true
+    },
+    "macosRuntimeScope": {
+      "environment": "macOS arm64; isolated temporary user data; actual packaged Electron App",
+      "checks": [
+        "Nana7mi UI palette alone retains original welcome image and MILKY GREEN",
+        "applied genuine SVG with renamed filename shows decoded question icon and NANA7MI, same typography; identity, voice and history preserved",
+        "Nana SVG continues to show question icon under original green palette",
+        "unapplied draft and canceled SVG do not change welcome",
+        "user name edits retain Nana icon, label and alternate text",
+        "actual quit and relaunch retain selected Nana welcome and all settings",
+        "restore-default returns original illustration and MILKY GREEN immediately without resetting user configuration",
+        "different SVG named Nanami-sway.svg cannot trigger Nana presentation"
+      ],
+      "realSvgReadOnly": true,
+      "fileChooser": "injected results",
+      "externalAgentCalls": false,
+      "fishCalls": false,
+      "audioCalls": false,
+      "microphoneCalls": false,
+      "realQuitAndRelaunch": true
+    },
+    "windows": {
+      "payloadHashes": true,
+      "asarAllowlist": true,
+      "privateDataScan": true,
+      "staticReferences": true,
+      "thirdPartyNotices": true,
+      "sourceSnapshot": true,
+      "executableArchitecture": true,
+      "archiveIntegrity": true,
+      "portablePayloadRoundTrip": true,
+      "directoryZipRoundTrip": true,
+      "windowsRuntime": false
+    },
+    "handoff": {
+      "allowlist": true,
+      "privateDataScan": true,
+      "archiveIntegrity": true,
+      "zipRoundTrip": true,
+      "sourceSnapshot": true
+    },
+    "targetedRegression": {
+      "scope": "8 selected test files covering welcome, character, identity and packaging; renderer subset not double counted",
+      "tests": 105,
+      "pass": 105,
+      "fail": 0,
+      "skip": 0
+    },
+    "fullApplicationRegression": {
+      "executedForThisRelease": false,
+      "reason": "Targeted release checks; prior release full-suite counts are historical."
+    },
+    "welcomeBrowser": {
+      "passed": true,
+      "scope": "Actual dashboard in isolated Chromium with mock IPC and host presentation flags; real packaged PNG decode; no private SVG content or service calls",
+      "checks": [
+        "first state and image decode before either welcome visual appears",
+        "applied identity only, independent of theme and SVG filename",
+        "five themes at 510x700 and 430x560, Nana and restored default screenshots",
+        "unchanged wordmark font, size, weight and spacing",
+        "centered transparent square without circle/spark; no clipping or wordmark overlap",
+        "default decoration and name-aware alt restored",
+        "header avatar, display name, tagline and headline remain independent"
+      ],
+      "typography": {
+        "fontFamily": "-apple-system, \"system-ui\", \"PingFang SC\", \"Noto Sans CJK SC\", sans-serif",
+        "fontSize": "9px",
+        "fontWeight": "550",
+        "letterSpacing": "1.44px"
+      },
+      "measurements": [
+        {
+          "character": "nanami",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "green",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 254.328125,
+            "height": 254.328125,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": {
+            "left": 189.33182507132668,
+            "right": 320.84957872681883,
+            "top": 213.33182507132668,
+            "bottom": 344.4867711305278
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "green",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 131.09375,
+            "height": 131.09375,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "5.4625px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "black",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 254.328125,
+            "height": 254.328125,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": {
+            "left": 189.33182507132668,
+            "right": 320.84957872681883,
+            "top": 213.33182507132668,
+            "bottom": 344.4867711305278
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "black",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 131.09375,
+            "height": 131.09375,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "5.4625px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "yellow",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 254.328125,
+            "height": 254.328125,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": {
+            "left": 189.33182507132668,
+            "right": 320.84957872681883,
+            "top": 213.33182507132668,
+            "bottom": 344.4867711305278
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "yellow",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 131.09375,
+            "height": 131.09375,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "5.4625px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "swim",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 254.328125,
+            "height": 254.328125,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": {
+            "left": 189.33182507132668,
+            "right": 320.84957872681883,
+            "top": 213.33182507132668,
+            "bottom": 344.4867711305278
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "swim",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 131.09375,
+            "height": 131.09375,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "5.4625px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "nanami",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 254.328125,
+            "height": 254.328125,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": {
+            "left": 189.33182507132668,
+            "right": 320.84957872681883,
+            "top": 213.33182507132668,
+            "bottom": 344.4867711305278
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 510,
+          "scrollWidth": 510,
+          "theme": "nanami",
+          "orbit": {
+            "x": 193,
+            "y": 205,
+            "width": 124,
+            "height": 138
+          },
+          "image": {
+            "width": 131.09375,
+            "height": 131.09375,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "5.4625px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 356,
+            "bottom": 367
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "green",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 206.40625,
+            "height": 206.40625,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": {
+            "left": 161.70537624821685,
+            "right": 268.44184646932956,
+            "top": 218.70537624821685,
+            "bottom": 325.14740103423685
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "green",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 106.390625,
+            "height": 106.390625,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "4.43333px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "black",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 206.40625,
+            "height": 206.40625,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": {
+            "left": 161.70537624821685,
+            "right": 268.44184646932956,
+            "top": 218.70537624821685,
+            "bottom": 325.14740103423685
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "black",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 106.390625,
+            "height": 106.390625,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "4.43333px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "yellow",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 206.40625,
+            "height": 206.40625,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": {
+            "left": 161.70537624821685,
+            "right": 268.44184646932956,
+            "top": 218.70537624821685,
+            "bottom": 325.14740103423685
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "yellow",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 106.390625,
+            "height": 106.390625,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "4.43333px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "swim",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 206.40625,
+            "height": 206.40625,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": {
+            "left": 161.70537624821685,
+            "right": 268.44184646932956,
+            "top": 218.70537624821685,
+            "bottom": 325.14740103423685
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "swim",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 106.390625,
+            "height": 106.390625,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "4.43333px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "nanami",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "nanami",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 206.40625,
+            "height": 206.40625,
+            "naturalWidth": 1402,
+            "naturalHeight": 1122,
+            "marginLeft": "0px",
+            "pointerEvents": "none"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": {
+            "left": 161.70537624821685,
+            "right": 268.44184646932956,
+            "top": 218.70537624821685,
+            "bottom": 325.14740103423685
+          },
+          "before": "none",
+          "after": "none",
+          "spark": "none",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        },
+        {
+          "character": "default",
+          "width": 430,
+          "scrollWidth": 430,
+          "theme": "nanami",
+          "orbit": {
+            "x": 153,
+            "y": 212,
+            "width": 124,
+            "height": 112
+          },
+          "image": {
+            "width": 106.390625,
+            "height": 106.390625,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "marginLeft": "4.43333px",
+            "pointerEvents": "auto"
+          },
+          "wordmark": {
+            "top": 337,
+            "bottom": 348
+          },
+          "frame": null,
+          "before": "block",
+          "after": "block",
+          "spark": "block",
+          "avatarUnchanged": true,
+          "name": "自定义名字",
+          "tagline": "保留用户原来的签名",
+          "title": "自定义名字已经来到你的桌面"
+        }
+      ],
+      "screenshots": [
+        "nanami-green-510.png",
+        "default-green-510.png",
+        "nanami-black-510.png",
+        "default-black-510.png",
+        "nanami-yellow-510.png",
+        "default-yellow-510.png",
+        "nanami-swim-510.png",
+        "default-swim-510.png",
+        "nanami-nanami-510.png",
+        "default-nanami-510.png",
+        "nanami-green-430.png",
+        "default-green-430.png",
+        "nanami-black-430.png",
+        "default-black-430.png",
+        "nanami-yellow-430.png",
+        "default-yellow-430.png",
+        "nanami-swim-430.png",
+        "default-swim-430.png",
+        "nanami-nanami-430.png",
+        "default-nanami-430.png"
+      ],
+      "hashes": {
+        "src/renderer/dashboard.html": "dd00d395a418643735340d9a3033f35a2d1e2acec9d97273fb16b371f54dec55",
+        "src/renderer/dashboard.mjs": "f78b04cf9b0c9a9daa9b888a5d2248a97efd981f008895865038511d12266427",
+        "src/renderer/dashboard.css": "73e3de2998c0f0f2bd04762fb37031cccb8a0e7469cc6e77aaeece7557d67f67",
+        "src/renderer/welcome-presentation.mjs": "0b4f11c49daef4208f7e4ad7c39334e7ed1c28c574a5509ebfd04430897a4728",
+        "assets/welcome-nana7mi.png": "71fde826ddf1fbb51d19d84fcc0b6b752f4418ab5827142bdc48193b5ba0f76d"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "visualReview": {
+        "viewed": [
+          "nanami-nanami-510.png",
+          "nanami-green-430.png",
+          "default-nanami-430.png",
+          "nanami-black-510.png",
+          "nanami-yellow-510.png",
+          "nanami-swim-510.png"
+        ],
+        "result": "Centered question-square has no circle/spark overlay or wordmark overlap; proportions remain square, all five themes remain readable, and default portrait/decorations restore. Compact conversation retains its pre-existing vertical scrolling layout."
+      }
+    },
+    "nativeVerifiedSource": {
+      "src/main.mjs": "6072d3567f8ca49bd65fe4813425ada43365e10669328781793b56a698c2d2e7",
+      "src/character-presentation.mjs": "12571c59b084209da505520d27770862bca1010da431aa6129595344bf7f458a",
+      "src/renderer/dashboard.html": "dd00d395a418643735340d9a3033f35a2d1e2acec9d97273fb16b371f54dec55",
+      "src/renderer/dashboard.mjs": "f78b04cf9b0c9a9daa9b888a5d2248a97efd981f008895865038511d12266427",
+      "src/renderer/dashboard.css": "73e3de2998c0f0f2bd04762fb37031cccb8a0e7469cc6e77aaeece7557d67f67",
+      "src/renderer/welcome-presentation.mjs": "0b4f11c49daef4208f7e4ad7c39334e7ed1c28c574a5509ebfd04430897a4728",
+      "assets/welcome-nana7mi.png": "71fde826ddf1fbb51d19d84fcc0b6b752f4418ab5827142bdc48193b5ba0f76d"
+    },
+    "preservation": {
+      "originalArtworkCount": 71,
+      "originalArtworkUnchanged": true,
+      "localSvgUnchanged": true,
+      "localSvgBundled": false,
+      "welcomePngMatchesApprovedAsset": true,
+      "sourceSnapshotsMatch": true,
+      "commonSourceHashesMatch": true,
+      "nativeVerifiedSourceMatches": true,
+      "browserVerifiedSourceMatches": true,
+      "templatesAndHelperUnchangedFrom073": 10,
+      "previousPublicReleases": {
+        "0.7.0": {
+          "files": 25,
+          "unchanged": true
+        },
+        "0.7.1": {
+          "files": 25,
+          "unchanged": true
+        },
+        "0.7.2": {
+          "files": 25,
+          "unchanged": true
+        },
+        "0.7.3": {
+          "files": 25,
+          "unchanged": true
+        }
+      }
+    }
+  },
+  "sanitizations": [
+    {
+      "file": "assets/expression-rig.json",
+      "removedFields": [
+        "closed_smile_source.path"
+      ]
+    },
+    {
+      "file": "assets/motion-r15/assets/expression-rig.json",
+      "removedFields": [
+        "closed_smile_source.path"
+      ]
+    },
+    {
+      "file": "assets/motion-r15/assets/mouth-rig.json",
+      "removedFields": [
+        "accepted_avatar_svg",
+        "source_svg"
+      ]
+    },
+    {
+      "file": "assets/mouth-rig.json",
+      "removedFields": [
+        "accepted_avatar_svg",
+        "source_svg"
+      ]
+    }
+  ]
+}

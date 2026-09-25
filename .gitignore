@@ -1,0 +1,7 @@
+.DS_Store
+*.zip
+*.exe
+*.app/
+.env
+.env.*
+node_modules/

@@ -1,0 +1,30 @@
+{
+  "appVersion": "0.7.4",
+  "files": {
+    "用户接入说明.md": "5d60f520476d34fb4e624e0e7df4f7fed2100508c16a1ddb80207b586cbe8e64",
+    "AGENT-HANDOFF.md": "26dc5180690795a3d219e5a83a7315059c5eb2b451e67629d08d1d64776f2c7b",
+    "templates/README.md": "da977e57d1bad448ac90710bf76806be77acc9fd6b24af6f751d800c08be9c91",
+    "templates/connections.example.json": "f97986b9fc060b0508e9236cac15dc11cb1d4dfa4f389723edaad1473c07372e",
+    "templates/fish-settings.example.json": "0a943c27efb8f1b92ec11b766714f531bf7428b4b4519234919442ec1faf186a",
+    "templates/api-listener.env.example": "f59a5f45da64a0984a5231283ba873992a5cac01c4803f81e6bd158b941687be",
+    "templates/api-shared-profile.env.example": "ebf4ba9ed08338cce37051dd7a3d8a33a4d018bb292ef4a407bd5ad742af3d29",
+    "templates/profile.yaml.example": "00dbd6305af8eded4fc796d3532df616628a6a4bcc1a5e7b7661427f66985b6e",
+    "templates/voice/voxcpm2.example.json": "3803bbc82504630bf0d2bda3d60711e81e4c67e1e7f13d4960bfff32a19ea841",
+    "templates/voice/asr-sensevoice.example.json": "adaa0d439b2bdc73f64c7440731539da2bfb141c259080467a6c27dd5415ac65",
+    "templates/voice/asr-nano.example.json": "a21d1adf1b8014f9d25a6b05537a287543eb37930330660d825460e1a8414f84",
+    "tools/setup-hermes-api.py": "4291990b7a293e6a897a038629910d0f9332ed577f47494d531e3b16f6aee88e"
+  },
+  "verified": {
+    "allowlist": true,
+    "privateDataScan": true,
+    "archiveIntegrity": true,
+    "zipRoundTrip": true,
+    "sourceSnapshot": true
+  },
+  "artifacts": {
+    "MilkyGreen-0.7.4-handoff.zip": {
+      "bytes": 33934,
+      "sha256": "1f1ad3a59c6163c5d5688f86d1063383f27084ea13232b2ab44985baad6406d4"
+    }
+  }
+}

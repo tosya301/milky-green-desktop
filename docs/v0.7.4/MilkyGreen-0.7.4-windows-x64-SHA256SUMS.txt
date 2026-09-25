@@ -1,0 +1,2 @@
+c7e8efddd1bca944704a2488d7cafda3d4d81189b328c38dbacc95e13f37c60b  MilkyGreen-0.7.4-windows-x64-portable.exe
+52a5d89daeefea99b32e455b56e90ed856aab4e95bebcca7ef9d25491e146d15  MilkyGreen-0.7.4-windows-x64.zip

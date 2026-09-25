@@ -1,0 +1,5 @@
+{
+  "provider": "fish",
+  "fishModel": "s2.1-pro-free",
+  "fishVoiceId": "REPLACE_WITH_YOUR_32_LOWERCASE_HEX_VOICE_ID"
+}
