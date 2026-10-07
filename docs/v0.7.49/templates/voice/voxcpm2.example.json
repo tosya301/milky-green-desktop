@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "backend": "builtin",
+  "provider": "voxcpm2",
+  "python": "/absolute/path/to/tts-venv/bin/python",
+  "model_dir": "/absolute/path/to/VoxCPM2",
+  "reference": "/absolute/path/to/your-reference.wav",
+  "device": "cpu",
+  "max_chars": 150,
+  "request_timeout": 300,
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "seed": 42,
+  "style": ""
+}

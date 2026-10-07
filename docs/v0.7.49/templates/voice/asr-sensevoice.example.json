@@ -1,0 +1,7 @@
+{
+  "provider": "sensevoice",
+  "python": "/absolute/path/to/asr-venv/bin/python",
+  "modelPath": "/absolute/path/to/SenseVoiceSmall",
+  "device": "cpu",
+  "hotwords": []
+}

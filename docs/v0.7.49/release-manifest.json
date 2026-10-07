@@ -1,0 +1,163 @@
+{
+  "version": "0.7.49",
+  "documentationRevision": "github-release-2026-10-07",
+  "date": "2026-10-07",
+  "distribution": "direct-download public test package",
+  "publication": {
+    "channel": "GitHub Releases",
+    "repository": "https://github.com/tosya301/milky-green-desktop",
+    "tag": "v0.7.49",
+    "releaseUrl": "https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.49"
+  },
+  "artifacts": {
+    "MilkyGreen-0.7.49-macos-arm64.app.zip": {
+      "bytes": 268312332,
+      "sha256": "03d66267548405d6349f595c2c2d1605c107e6159e54fabd18c56449a0277d92"
+    },
+    "MilkyGreen-0.7.49-windows-x64-portable.exe": {
+      "bytes": 205951233,
+      "sha256": "e7800252c3e4daf4dfe3927d068fb94ecdd908629a45999ddc4a53d787a9fe38"
+    },
+    "MilkyGreen-0.7.49-windows-x64.zip": {
+      "bytes": 290486509,
+      "sha256": "479f806de221325e119d1724eb8d681b3d2ea3d195d48d11b3fcc9799c8fdfad"
+    },
+    "MilkyGreen-0.7.49-handoff.zip": {
+      "bytes": 40759,
+      "sha256": "e4d442da6807171121edecbc441cc787bf527069eb82ee4a5f3b9d5a7c04f8f1"
+    }
+  },
+  "tests": {
+    "total": 913,
+    "passed": 908,
+    "failed": 0,
+    "skipped": 5
+  },
+  "validation": {
+    "commonRuntimeFiles": 5707,
+    "commonRuntimeIdentical": true,
+    "macHostRuntime": true,
+    "macRuntimeUsesMocks": true,
+    "windowsBrowserRenderer": true,
+    "windowsRendererChecks": 21,
+    "windowsRuntime": false,
+    "mainlandNetwork": false,
+    "realCloudCallsRepeated": false,
+    "handoffFiles": 12
+  },
+  "signing": {
+    "mac": "ad-hoc",
+    "notarized": false,
+    "windows": "unsigned"
+  },
+  "documents": [
+    "README.md",
+    "发布说明.md",
+    "用户接入说明.md",
+    "AGENT-HANDOFF.md",
+    "templates/README.md",
+    "发行包核验.md"
+  ],
+  "files": {
+    "AGENT-HANDOFF.md": {
+      "bytes": 35579,
+      "sha256": "57f74e799a1c9677be33064a916b20a19ecbae7da02aa32ed8ebdb60d0b91376"
+    },
+    "MilkyGreen-0.7.49-handoff-manifest.json": {
+      "bytes": 1657,
+      "sha256": "f2f01e2228fc13ed7b9640ca325430d4b18f2f40727baa5ac04d0d60fd875d0b"
+    },
+    "MilkyGreen-0.7.49-handoff-SHA256SUMS.txt": {
+      "bytes": 96,
+      "sha256": "20e68ba7c042468b81f7df233a8c7c4b3e11c9043aade711fc60011892f3bcc2"
+    },
+    "MilkyGreen-0.7.49-handoff.zip": {
+      "bytes": 40759,
+      "sha256": "e4d442da6807171121edecbc441cc787bf527069eb82ee4a5f3b9d5a7c04f8f1"
+    },
+    "MilkyGreen-0.7.49-macos-arm64-manifest.json": {
+      "bytes": 1639915,
+      "sha256": "8e80cee160e86778f6f2e3e06d9eb20b793a3668457ba8beb277f96d81a3f9c8"
+    },
+    "MilkyGreen-0.7.49-macos-arm64-SHA256SUMS.txt": {
+      "bytes": 104,
+      "sha256": "2e5b891154bf13bf59a9834df9b68915fd95f8dbf845132d5f386ae52b584c73"
+    },
+    "MilkyGreen-0.7.49-macos-arm64.app.zip": {
+      "bytes": 268312332,
+      "sha256": "03d66267548405d6349f595c2c2d1605c107e6159e54fabd18c56449a0277d92"
+    },
+    "MilkyGreen-0.7.49-windows-x64-manifest.json": {
+      "bytes": 1639962,
+      "sha256": "6f336d9bb7f734781c0668eb978867579f6de2d0820859c63331abe249c9896f"
+    },
+    "MilkyGreen-0.7.49-windows-x64-portable.exe": {
+      "bytes": 205951233,
+      "sha256": "e7800252c3e4daf4dfe3927d068fb94ecdd908629a45999ddc4a53d787a9fe38"
+    },
+    "MilkyGreen-0.7.49-windows-x64-SHA256SUMS.txt": {
+      "bytes": 209,
+      "sha256": "f94d46f71a295f9584f38240fba1b9953c21ffcc49d1ae42bc7fcfc9aded4675"
+    },
+    "MilkyGreen-0.7.49-windows-x64.zip": {
+      "bytes": 290486509,
+      "sha256": "479f806de221325e119d1724eb8d681b3d2ea3d195d48d11b3fcc9799c8fdfad"
+    },
+    "README.md": {
+      "bytes": 3195,
+      "sha256": "924c436f5b2d04d657730412eacf369ddb77895f145517c3fd7bb02f5c5d9ee4"
+    },
+    "templates/api-listener.env.example": {
+      "bytes": 408,
+      "sha256": "f59a5f45da64a0984a5231283ba873992a5cac01c4803f81e6bd158b941687be"
+    },
+    "templates/api-shared-profile.env.example": {
+      "bytes": 224,
+      "sha256": "ebf4ba9ed08338cce37051dd7a3d8a33a4d018bb292ef4a407bd5ad742af3d29"
+    },
+    "templates/connections.example.json": {
+      "bytes": 614,
+      "sha256": "f97986b9fc060b0508e9236cac15dc11cb1d4dfa4f389723edaad1473c07372e"
+    },
+    "templates/fish-settings.example.json": {
+      "bytes": 121,
+      "sha256": "0a943c27efb8f1b92ec11b766714f531bf7428b4b4519234919442ec1faf186a"
+    },
+    "templates/profile.yaml.example": {
+      "bytes": 190,
+      "sha256": "00dbd6305af8eded4fc796d3532df616628a6a4bcc1a5e7b7661427f66985b6e"
+    },
+    "templates/README.md": {
+      "bytes": 4203,
+      "sha256": "b83ac0ac3b57466972142cd7a102a75723dc276b2b1d8af701fb5b4b78a04197"
+    },
+    "templates/voice/asr-nano.example.json": {
+      "bytes": 180,
+      "sha256": "a21d1adf1b8014f9d25a6b05537a287543eb37930330660d825460e1a8414f84"
+    },
+    "templates/voice/asr-sensevoice.example.json": {
+      "bytes": 173,
+      "sha256": "adaa0d439b2bdc73f64c7440731539da2bfb141c259080467a6c27dd5415ac65"
+    },
+    "templates/voice/voxcpm2.example.json": {
+      "bytes": 370,
+      "sha256": "3803bbc82504630bf0d2bda3d60711e81e4c67e1e7f13d4960bfff32a19ea841"
+    },
+    "tools/setup-hermes-api.py": {
+      "bytes": 13551,
+      "sha256": "4291990b7a293e6a897a038629910d0f9332ed577f47494d531e3b16f6aee88e"
+    },
+    "发布说明.md": {
+      "bytes": 7373,
+      "sha256": "993e3148bcd6d9fc7f78d7676d1ea6935ac01abd43c71810e76efbe5f384c9ad"
+    },
+    "发行包核验.md": {
+      "bytes": 4665,
+      "sha256": "6c45af499c6098eb9491222e2579b314b2f3dacebe77ea41c3afc93f6d2d328e"
+    },
+    "用户接入说明.md": {
+      "bytes": 28074,
+      "sha256": "33f8f8c14d1f96604de45f7ab0d561b60364afe379924aeb4329ea3c2e11964b"
+    }
+  }
+}

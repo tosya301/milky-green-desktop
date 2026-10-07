@@ -1,0 +1,7 @@
+{
+  "provider": "fun-asr-nano",
+  "python": "/absolute/path/to/asr-venv/bin/python",
+  "modelPath": "/absolute/path/to/Fun-ASR-Nano-2512-hf",
+  "device": "cpu",
+  "hotwords": []
+}
