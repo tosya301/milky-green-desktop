@@ -25,6 +25,10 @@
     "MilkyGreen-0.7.77-handoff.zip": {
       "bytes": 4590522,
       "sha256": "e4f009100ecd84171ce63e4ccf436b1f126414a85cba5f965acf43f83c158310"
+    },
+    "MilkyGreen-0.7.77-character-card.zip": {
+      "bytes": 2723674,
+      "sha256": "0de6bc966d205fa8ce0a0b9e73dad3f8cad99fd7b27b4adeb4afd818050b0ab3"
     }
   },
   "validation": {
@@ -239,6 +243,20 @@
     "用户接入说明.md": {
       "bytes": 32200,
       "sha256": "0a700e49abdde8af6ce2cae85ede222553e1f5e1a792d2dca0f3b39e20c05316"
+    }
+  },
+  "documentationRevision": "character-card-download-2026-10-24",
+  "supplementalArtifacts": {
+    "MilkyGreen-0.7.77-character-card.zip": {
+      "purpose": "Optional public character card only; same v1.0.1 data as the handoff archive.",
+      "characterCardVersion": "1.0.1-2026-10-24",
+      "files": [
+        "NOTICE.md",
+        "README.md",
+        "明前奶绿_公共版_chara_card_v2.json",
+        "明前奶绿_公共版_chara_card_v2.png",
+        "明前奶绿_公共版角色卡.md"
+      ]
     }
   }
 }

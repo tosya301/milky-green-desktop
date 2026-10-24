@@ -12,6 +12,7 @@
 | Windows x64，测试版 | [便携 EXE](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/MilkyGreen-0.7.77-windows-x64-portable.exe) | 278.1 MiB |
 | Windows x64，测试版 | [完整目录 ZIP](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/MilkyGreen-0.7.77-windows-x64.zip) | 388.0 MiB |
 | 两平台共用 | [接入资料与可选角色卡](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/MilkyGreen-0.7.77-handoff.zip) | 说明、模板、优化指南及角色卡 |
+| 可选角色参考 | [公开角色卡 ZIP](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/MilkyGreen-0.7.77-character-card.zip) | 2.6 MiB |
 
 [附件 SHA-256](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/SHA256SUMS.txt) · [发行清单](docs/v0.7.77/release-manifest.json) · [全部附件](https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.77)
 

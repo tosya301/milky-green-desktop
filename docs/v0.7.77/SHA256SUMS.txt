@@ -1,3 +1,4 @@
+0de6bc966d205fa8ce0a0b9e73dad3f8cad99fd7b27b4adeb4afd818050b0ab3  MilkyGreen-0.7.77-character-card.zip
 0e3763505ea47469a0645c8e1d96148d5ce73f8fc92bce41300a67be0d3128b5  MilkyGreen-0.7.77-handoff-SHA256SUMS.txt
 7f06ae49308918f574e7add9abb881db3280a40c55c06d1863ff425c3b25a198  MilkyGreen-0.7.77-handoff-manifest.json
 e4f009100ecd84171ce63e4ccf436b1f126414a85cba5f965acf43f83c158310  MilkyGreen-0.7.77-handoff.zip
@@ -8,4 +9,4 @@ c7e587498263ae12c59b92c22b74f222b12421d887c4e200c7aa03fd8ea57ef2  MilkyGreen-0.7
 bc72991db848f1a1a659915e34c68748210b905b50bcf823f6757779645686a0  MilkyGreen-0.7.77-windows-x64-manifest.json
 3f0293d8366fefd9e4506dbeda636ed80a72a8d68621e171b6d310c06fa50cc5  MilkyGreen-0.7.77-windows-x64-portable.exe
 de720513e1119b4b36adf6c519170425e40defed23bc4251e660441a41937843  MilkyGreen-0.7.77-windows-x64.zip
-0908b1fc22c3255b0c7e6f33a87a83f30afd37014029435b39b324a69902851d  release-manifest.json
+75080b9fc0072fae0497c8ee751edd40fedfe736e29b0c473f81f5bdd886c8db  release-manifest.json
