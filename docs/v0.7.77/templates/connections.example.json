@@ -1,0 +1,22 @@
+[
+  {
+    "case": "default profile",
+    "endpoint": "http://127.0.0.1:8642",
+    "profileDirectory": "HERMES_ROOT"
+  },
+  {
+    "case": "named profile through shared gateway",
+    "endpoint": "http://127.0.0.1:8642/p/research",
+    "profileDirectory": "HERMES_ROOT/profiles/research"
+  },
+  {
+    "case": "named profile on existing independent port",
+    "endpoint": "http://127.0.0.1:9001",
+    "profileDirectory": "HERMES_ROOT/profiles/research"
+  },
+  {
+    "case": "explicit default route through shared gateway",
+    "endpoint": "http://127.0.0.1:8642/p/default",
+    "profileDirectory": "HERMES_ROOT"
+  }
+]

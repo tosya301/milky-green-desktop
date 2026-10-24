@@ -1,0 +1,95 @@
+{
+  "version": "0.7.77",
+  "date": "2026-10-24",
+  "nodeFullSuite": {
+    "passed": 1332,
+    "failed": 0,
+    "skipped": 6
+  },
+  "pythonSuite": {
+    "passed": 44,
+    "failed": 0
+  },
+  "windowsNetEaseFinalTargeted": {
+    "passed": 16,
+    "failed": 0,
+    "includesAdditionalPowerShellContractTest": true
+  },
+  "commonRuntimeFiles": 10799,
+  "commonRuntimeIdentical": true,
+  "commonSourceFiles": 10795,
+  "commonSourceIdentical": true,
+  "mac": {
+    "platform": "darwin",
+    "architecture": "arm64",
+    "minimumOS": "13.0",
+    "asarSha256": "aee693f1c716ea0cfefaf6d4b47c5de7ca0d1971b0d6da58cee0d45071a896ed",
+    "packageChecks": {
+      "payloadHashes": true,
+      "asarAllowlist": true,
+      "privateDataScan": true,
+      "staticReferences": true,
+      "thirdPartyNotices": true,
+      "sourceSnapshot": true,
+      "executableArchitecture": true,
+      "nativeHelperArchitecture": true,
+      "bundleMetadata": true,
+      "originalIcon": true,
+      "codeSignature": true,
+      "archiveIntegrity": true,
+      "appZipRoundTrip": true,
+      "unzipRoundTrip": true,
+      "hostRuntime": false
+    },
+    "finalPackagedHostRuntime": true,
+    "hostChecksPassed": 65,
+    "usesIsolatedProfileAndMockServices": true,
+    "physicalMouseLatencyTested": false,
+    "temporalScreenshotsReviewed": true,
+    "signing": "persistent-local-certificate",
+    "developerID": false,
+    "notarized": false
+  },
+  "windows": {
+    "platform": "win32",
+    "architecture": "x64",
+    "asarSha256": "30469b864e1e000cfc4738c58f495e9fc92764bb4c36d42354cf34a456f8b7d0",
+    "packageChecks": {
+      "payloadHashes": true,
+      "asarAllowlist": true,
+      "privateDataScan": true,
+      "staticReferences": true,
+      "thirdPartyNotices": true,
+      "sourceSnapshot": true,
+      "executableArchitecture": true,
+      "archiveIntegrity": true,
+      "portablePayloadRoundTrip": true,
+      "directoryZipRoundTrip": true,
+      "windowsRuntime": false
+    },
+    "packagedJavaScriptUIWithSMTCFixture": true,
+    "windowsHostRuntime": false,
+    "windowsPowerShell51WinRTTested": false,
+    "realNetEaseSpotifyTested": false,
+    "signed": false
+  },
+  "voicePerformanceGuide": {
+    "implementationReviewed": true,
+    "newPerformanceBenchmark": false,
+    "userVoiceSettingsChanged": false
+  },
+  "characterCard": {
+    "optional": true,
+    "appImportFeatureAdded": false,
+    "format": "chara_card_v2",
+    "version": "1.0.1-2026-10-24",
+    "pngMatchesJSON": true,
+    "imagePixelsUnchanged": true,
+    "sourceLinksAdded": false
+  },
+  "limitations": [
+    "Windows remains a test release and awaits real-machine validation.",
+    "Mock service and browser checks do not validate actual accounts, microphones or cloud synthesis.",
+    "VoxCPM2 guidance describes existing behavior and configuration options; no new GPU benchmark or speed guarantee."
+  ]
+}

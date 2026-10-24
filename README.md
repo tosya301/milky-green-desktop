@@ -2,64 +2,52 @@
 
 可以聊天、说话、换造型，也可以陪你一起听歌的桌面伴侣。
 
-当前版本：**0.7.49 公共测试版** · [下载与完整更新说明](https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.49) · [用户接入说明](docs/v0.7.49/用户接入说明.md)
+当前版本：**0.7.77** · **Windows 测试版** · [下载与更新说明](https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.77) · [用户接入说明](docs/v0.7.77/用户接入说明.md)
 
 ## 下载
 
-选择一个适合系统的应用包，并同时下载 **handoff 接入资料**。
-
-| 平台 | 文件 | 大小 |
+| 平台／用途 | 文件 | 大小 |
 | --- | --- | --- |
-| Apple Silicon Mac，macOS 13+ | [Mac arm64 App ZIP](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.49/MilkyGreen-0.7.49-macos-arm64.app.zip) | 255.9 MiB |
-| Intel / AMD Windows 10 / 11 x64 | [便携 EXE](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.49/MilkyGreen-0.7.49-windows-x64-portable.exe) | 196.4 MiB |
-| Windows x64，完整运行目录 | [Windows 目录 ZIP](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.49/MilkyGreen-0.7.49-windows-x64.zip) | 277.0 MiB |
-| 两个平台共用 | [handoff 接入资料](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.49/MilkyGreen-0.7.49-handoff.zip) | 说明、模板和配置 helper |
+| Apple Silicon Mac，macOS 13+ | [Mac App ZIP](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/MilkyGreen-0.7.77-macos-arm64.app.zip) | 366.8 MiB |
+| Windows x64，测试版 | [便携 EXE](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/MilkyGreen-0.7.77-windows-x64-portable.exe) | 278.1 MiB |
+| Windows x64，测试版 | [完整目录 ZIP](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/MilkyGreen-0.7.77-windows-x64.zip) | 388.0 MiB |
+| 两平台共用 | [接入资料与可选角色卡](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/MilkyGreen-0.7.77-handoff.zip) | 说明、模板、优化指南及角色卡 |
 
-[SHA-256 校验清单](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.49/SHA256SUMS.txt) · [发行清单](docs/v0.7.49/release-manifest.json) · [全部附件](https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.49)
+[附件 SHA-256](https://github.com/tosya301/milky-green-desktop/releases/download/v0.7.77/SHA256SUMS.txt) · [发行清单](docs/v0.7.77/release-manifest.json) · [全部附件](https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.77)
 
-Mac 解压得到 App；Windows 便携 EXE 直接运行，目录 ZIP 需完整解压后运行其中的 `MilkyGreen.exe`。Windows 两种包选一种，不单独搬走目录版的 EXE。当前不提供 Intel Mac 或 Windows ARM64 包。
+Mac 解压得到 App。Windows 两种包选一种：便携 EXE 直接运行；目录 ZIP 完整解压后运行 MilkyGreen.exe，不单独搬走 EXE。当前没有 Intel Mac 或 Windows ARM64 包。网易云 Windows 接入要求 Windows 10 1809+／Windows 11，以及客户端提供系统媒体会话。
 
-这是安装包与文档分发仓库，本次不发布完整应用开发源码。GitHub 自动生成的 **Source code** 归档只有本仓库内容，安装请用上表的应用包。
+这是安装包与文档分发仓库，本次不发布完整应用开发源码。GitHub 自动生成的 Source code 归档只有本仓库内容，安装请使用上表应用包。
 
-## 相比 0.7.4 更新了什么
+## 相比 0.7.49 的主要更新
 
-- **更多内置造型：** 默认常服支持半身／全身；新增泳装、奶小绿及奶小绿常服，分别记住大小。默认立绘的发丝、衣纹、视线和动态跟随也做了精修。
-- **DIY 配色：** 原有五套预设之外新增六色自由编辑，36 组随机搭配可继续修改，自动保存。
-- **一起听与桌面歌词：** Spotify 歌曲与控制面板、17 种歌词效果和透明穿透舞台；新增 macOS 网易云实验性接入。可靠字时间可用时逐字同步，否则保持逐句。
-- **Qwen 北京语音：** 新增通义千问在线 TTS，保留 Fish 和本地 VoxCPM2；声音复刻在应用外完成。
-- **常用音色列表：** Fish／Qwen 单击选择、双击输入完整 ID，保存成功后记住；Qwen 按业务空间和模型分组。
-- **语音与细节修复：** macOS 14+ 支持说话时降低音乐；修复一类连续语音轮次标记导致的中断、头像首次显示跳动，并减少动画重复计算。
-- **双平台与资料同步：** Mac／Windows 从同一份 0.7.49 源码构建；Windows 隐藏 Apple 专属收音区域，普通语音入口保留。用户说明与 Agent handoff 已更新。
+- 新增奶白、奶黑和奶小绿女仆装，内置角色共七款；女仆眼镜可切换并保存。
+- 完善头部跟随、分区呼吸、表情和接缝；修复奶白、奶黑、泳装缺少点击回弹的问题。
+- 六个网格角色采用待机约 12 fps、活动约 30 fps 调度，完善拖动、上下文恢复及大尺寸显示。
+- 增加浅色、深色、跟随系统外观；DIY 六色可生成新的随机搭配。
+- 新增 Windows 网易云 SMTC 测试接入，改善 Spotify 新旧 Hermes 插件、Windows 安装及 Python 兼容。
+- Fish 新增 Drama 3；完善 Mac 网易云模式控制、音乐与歌词恢复等细节。
+- 更新接入资料，新增 [VoxCPM2 速度优化指南](docs/v0.7.77/VoxCPM2性能优化指南.md) 和 [可选公开角色卡](docs/v0.7.77/character-card/README.md)。
 
-[完整更新说明](docs/v0.7.49/发布说明.md) · [实际验证与已知限制](docs/v0.7.49/发行包核验.md) · [上一公开版本 v0.7.4](https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.4)
-
-原有 SVG 选择、检查、应用与受限轻摇继续保留。自定义 SVG 不会自动获得表情或口型；内置 Mesh 角色不等于通用 Mesh／Live2D 导入。七海 SVG 的欢迎图联动保留，私人 SVG 不随包提供。
+[完整更新说明](docs/v0.7.77/发布说明.md) · [实际验证与限制](docs/v0.7.77/发行包核验.md) · [上一公开版本 v0.7.49](https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.49)
 
 ## 第一次使用
 
-1. 下载应用包和 handoff，阅读[用户接入说明](docs/v0.7.49/用户接入说明.md)。让 AI 助手协助时，将 [AGENT-HANDOFF](docs/v0.7.49/AGENT-HANDOFF.md) 交给它。
-2. 先体验声音，可在设置中选择 Qwen 北京或 Fish，填写自己的账号参数和音色，保存并试听；在线试听不需要 Hermes 或本地 ASR。
-3. 需要聊天时，连接自己的本机 Hermes 默认或命名 profile。麦克风对话还需本地 ASR；本地 VoxCPM2 则需另备环境、模型与参考录音。Windows 原生／WSL 配置见接入说明。
+1. 下载应用与接入资料，阅读 [用户说明](docs/v0.7.77/用户接入说明.md)。请 AI 助手协助配置时，提供 [AGENT-HANDOFF](docs/v0.7.77/AGENT-HANDOFF.md)。
+2. 先体验在线朗读，可配置自己的 Fish 或 Qwen 参数并试听；无需先连接 Hermes。本地 VoxCPM2 需要自己的 Python、模型及参考录音。
+3. 文字聊天连接自己的 Hermes，麦克风对话另需本地 ASR。保留已有模型、人设、记忆与工具权限。可选角色卡供自行参考，App 不提供导入或自动加载。
+4. Windows 用户按 [测试说明](docs/v0.7.77/Windows测试说明.md) 检查实际启动、网易云与 Spotify；未配置的功能不必重置其他设置来尝试。
 
-[配置模板说明](docs/v0.7.49/templates/README.md) · [可选 Hermes 配置 helper](docs/v0.7.49/tools/setup-hermes-api.py)
+协助安装的 AI 助手不限 Hermes；**App 当前内置的聊天后端仍是 Hermes**。其他 Agent 或模型接口需额外协议适配，不能仅换地址就视为已支持。界面立绘、显示名、音色与后端人设彼此独立。
 
-### AI 助手与聊天后端是两回事
+## 升级与验证范围
 
-**协助安装配置的 AI 助手不限 Hermes；奶绿 0.7.49 当前内置的聊天后端仍是 Hermes。** 应用沿用该 profile 的模型、人设、记忆和工具配置；外观、显示名字与音色可以分别设置。
+退出旧版、保留备份后替换程序，保留用户数据目录。应用包不包含个人账号、密钥、音色、参考录音或聊天；便携 EXE 的设置仍保存于系统账户的数据目录。
 
-Pi、Muse、WorkBuddy、Codex、Claude Code、Ollama 等并非本版已支持后端清单。其他后端需要按其公开接口开发本地协议桥或专用适配器，不能只换一个服务地址直接使用。handoff 已补充开发路线及会话、运行、事件、停止、审批和语音的验收要求。
+Mac 最终包已通过 65 项隔离 Electron 检查；源码完整 Node 回归 1332 通过／6 跳过，Python 44 通过，Windows 网易云补充定向套件 16 通过。Windows 完成包体与模拟状态界面验证，**尚无 Windows 实机验收**。详见 [核验记录](docs/v0.7.77/发行包核验.md)。
 
-## 升级、测试范围与反馈
-
-退出旧版后替换应用，保留自己的用户数据目录和备份。公开包不附带账号、密钥、私人音色、参考录音、聊天、Hermes、Python 环境或模型。便携 EXE 的设置仍保存在系统账户的数据目录中。
-
-- 本轮自动回归：913 项，908 通过、0 失败、5 项环境相关跳过。
-- 最终 Mac 包已通过隔离宿主运行检查；该轮使用模拟后端和音频样本，不代表每个账号与声卡都已验证。
-- Windows 已完成包体核验和模拟平台界面检查，**尚未完成 Windows 真机运行验收**。
-- Mac 为 ad-hoc 签名、未 Apple 公证；Windows 未附发行者签名。网易云接入是 macOS 实验性功能；Apple 降音乐可能影响其他系统音频与回复听感。
-
-详细证据范围见[发行包核验](docs/v0.7.49/发行包核验.md)。反馈请提供系统、版本与复现步骤，不上传密钥、完整 profile 或私人聊天。
+Mac 为持久本地证书签名，非 Apple Developer ID、未公证；旧公开版升级可能需要重新给予辅助功能许可。Windows 未附发行者签名。真实音乐账号、语音设备和网络请按所选功能自行验证，反馈不要附带密钥或私人 profile。
 
 ## 项目与素材
 
-这是非官方粉丝项目。本仓库公开不代表为应用、角色、图像或声音统一授予开源或素材许可。包内保留第三方许可及相应源码入口，角色素材的完整来源／再分发授权记录缺口仍如实记录。详见 [NOTICE](NOTICE.md)。
+这是非官方粉丝项目。公开仓库不代表为应用、角色、图像或声音统一授予开源或素材许可。第三方许可、对应源码入口及素材来源记录保留，详见 [NOTICE](NOTICE.md)。

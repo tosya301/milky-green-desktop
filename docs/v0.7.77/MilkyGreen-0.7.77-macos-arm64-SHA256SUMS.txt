@@ -1,0 +1,1 @@
+d8a831e266e2928a4468295dcdf5813d43ad7ca027556f4cce6367529fb3ffa7  MilkyGreen-0.7.77-macos-arm64.app.zip

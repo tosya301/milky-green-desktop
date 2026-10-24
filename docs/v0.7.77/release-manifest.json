@@ -1,0 +1,244 @@
+{
+  "version": "0.7.77",
+  "date": "2026-10-24",
+  "previousPublicVersion": "0.7.49",
+  "publication": {
+    "repository": "https://github.com/tosya301/milky-green-desktop",
+    "tag": "v0.7.77",
+    "releaseUrl": "https://github.com/tosya301/milky-green-desktop/releases/tag/v0.7.77",
+    "prerelease": true,
+    "windowsStatus": "test"
+  },
+  "artifacts": {
+    "MilkyGreen-0.7.77-macos-arm64.app.zip": {
+      "bytes": 384570691,
+      "sha256": "d8a831e266e2928a4468295dcdf5813d43ad7ca027556f4cce6367529fb3ffa7"
+    },
+    "MilkyGreen-0.7.77-windows-x64-portable.exe": {
+      "bytes": 291656200,
+      "sha256": "3f0293d8366fefd9e4506dbeda636ed80a72a8d68621e171b6d310c06fa50cc5"
+    },
+    "MilkyGreen-0.7.77-windows-x64.zip": {
+      "bytes": 406882183,
+      "sha256": "de720513e1119b4b36adf6c519170425e40defed23bc4251e660441a41937843"
+    },
+    "MilkyGreen-0.7.77-handoff.zip": {
+      "bytes": 4590522,
+      "sha256": "e4f009100ecd84171ce63e4ccf436b1f126414a85cba5f965acf43f83c158310"
+    }
+  },
+  "validation": {
+    "version": "0.7.77",
+    "date": "2026-10-24",
+    "nodeFullSuite": {
+      "passed": 1332,
+      "failed": 0,
+      "skipped": 6
+    },
+    "pythonSuite": {
+      "passed": 44,
+      "failed": 0
+    },
+    "windowsNetEaseFinalTargeted": {
+      "passed": 16,
+      "failed": 0,
+      "includesAdditionalPowerShellContractTest": true
+    },
+    "commonRuntimeFiles": 10799,
+    "commonRuntimeIdentical": true,
+    "commonSourceFiles": 10795,
+    "commonSourceIdentical": true,
+    "mac": {
+      "platform": "darwin",
+      "architecture": "arm64",
+      "minimumOS": "13.0",
+      "asarSha256": "aee693f1c716ea0cfefaf6d4b47c5de7ca0d1971b0d6da58cee0d45071a896ed",
+      "packageChecks": {
+        "payloadHashes": true,
+        "asarAllowlist": true,
+        "privateDataScan": true,
+        "staticReferences": true,
+        "thirdPartyNotices": true,
+        "sourceSnapshot": true,
+        "executableArchitecture": true,
+        "nativeHelperArchitecture": true,
+        "bundleMetadata": true,
+        "originalIcon": true,
+        "codeSignature": true,
+        "archiveIntegrity": true,
+        "appZipRoundTrip": true,
+        "unzipRoundTrip": true,
+        "hostRuntime": false
+      },
+      "finalPackagedHostRuntime": true,
+      "hostChecksPassed": 65,
+      "usesIsolatedProfileAndMockServices": true,
+      "physicalMouseLatencyTested": false,
+      "temporalScreenshotsReviewed": true,
+      "signing": "persistent-local-certificate",
+      "developerID": false,
+      "notarized": false
+    },
+    "windows": {
+      "platform": "win32",
+      "architecture": "x64",
+      "asarSha256": "30469b864e1e000cfc4738c58f495e9fc92764bb4c36d42354cf34a456f8b7d0",
+      "packageChecks": {
+        "payloadHashes": true,
+        "asarAllowlist": true,
+        "privateDataScan": true,
+        "staticReferences": true,
+        "thirdPartyNotices": true,
+        "sourceSnapshot": true,
+        "executableArchitecture": true,
+        "archiveIntegrity": true,
+        "portablePayloadRoundTrip": true,
+        "directoryZipRoundTrip": true,
+        "windowsRuntime": false
+      },
+      "packagedJavaScriptUIWithSMTCFixture": true,
+      "windowsHostRuntime": false,
+      "windowsPowerShell51WinRTTested": false,
+      "realNetEaseSpotifyTested": false,
+      "signed": false
+    },
+    "voicePerformanceGuide": {
+      "implementationReviewed": true,
+      "newPerformanceBenchmark": false,
+      "userVoiceSettingsChanged": false
+    },
+    "characterCard": {
+      "optional": true,
+      "appImportFeatureAdded": false,
+      "format": "chara_card_v2",
+      "version": "1.0.1-2026-10-24",
+      "pngMatchesJSON": true,
+      "imagePixelsUnchanged": true,
+      "sourceLinksAdded": false
+    },
+    "limitations": [
+      "Windows remains a test release and awaits real-machine validation.",
+      "Mock service and browser checks do not validate actual accounts, microphones or cloud synthesis.",
+      "VoxCPM2 guidance describes existing behavior and configuration options; no new GPU benchmark or speed guarantee."
+    ]
+  },
+  "handoffFiles": 28,
+  "documents": {
+    "AGENT-HANDOFF.md": {
+      "bytes": 37496,
+      "sha256": "3b2b44b3c59b2420bd5e5f883ca8b827f9503c8cfa83bd2f214c7a0be1a2a0ba"
+    },
+    "MilkyGreen-0.7.77-handoff-SHA256SUMS.txt": {
+      "bytes": 96,
+      "sha256": "0e3763505ea47469a0645c8e1d96148d5ce73f8fc92bce41300a67be0d3128b5"
+    },
+    "MilkyGreen-0.7.77-handoff-manifest.json": {
+      "bytes": 4306,
+      "sha256": "7f06ae49308918f574e7add9abb881db3280a40c55c06d1863ff425c3b25a198"
+    },
+    "MilkyGreen-0.7.77-macos-arm64-SHA256SUMS.txt": {
+      "bytes": 104,
+      "sha256": "cd424ce8fed9d33efa9e5471793dedc2a98da9f3c6466b4abb1a0e897850f4c6"
+    },
+    "MilkyGreen-0.7.77-macos-arm64-manifest.json": {
+      "bytes": 3134918,
+      "sha256": "f47a0f2b69d0963f9708c624599114fcd44901d79ac9e6ce31de27e4060e4607"
+    },
+    "MilkyGreen-0.7.77-windows-x64-SHA256SUMS.txt": {
+      "bytes": 209,
+      "sha256": "c7e587498263ae12c59b92c22b74f222b12421d887c4e200c7aa03fd8ea57ef2"
+    },
+    "MilkyGreen-0.7.77-windows-x64-manifest.json": {
+      "bytes": 3126849,
+      "sha256": "bc72991db848f1a1a659915e34c68748210b905b50bcf823f6757779645686a0"
+    },
+    "NOTICE.md": {
+      "bytes": 1786,
+      "sha256": "5b95a92395ed7142da281a75e8e3ded191e7b7575431b84eb45b65a73562981f"
+    },
+    "README.md": {
+      "bytes": 2587,
+      "sha256": "9d12efa2a81b50c889fcffb60910fa8205c7c216d2964752b2cd6cbe67933b56"
+    },
+    "VoxCPM2性能优化指南.md": {
+      "bytes": 9548,
+      "sha256": "b5c34937069d6a7a5ce611cbf7ca163d3121361d157904e86b9910762a09e686"
+    },
+    "Windows测试说明.md": {
+      "bytes": 2706,
+      "sha256": "412c931714c780f7cf7df6e81efb73a80a8fdb49dbd6a6692742c23630b4ac59"
+    },
+    "character-card/README.md": {
+      "bytes": 1526,
+      "sha256": "46a4f7075230c04f9b14115b6964c73bc6c188682ed64c2c31235e86e576c14e"
+    },
+    "character-card/明前奶绿_公共版_chara_card_v2.json": {
+      "bytes": 17650,
+      "sha256": "aba32efd0457cbcb030ba47439995a6ee891592d2b8c72107661aa9d1534d50b"
+    },
+    "character-card/明前奶绿_公共版_chara_card_v2.png": {
+      "bytes": 2742574,
+      "sha256": "a5b4e8a0184f40187e331b80495d2ac22b5b41665c090208a9dae044feb6706a"
+    },
+    "character-card/明前奶绿_公共版角色卡.md": {
+      "bytes": 16715,
+      "sha256": "bdd9e57ce53e8e027e2bb23194b3972e675c98ba380deaee752c48df33500cf4"
+    },
+    "templates/README.md": {
+      "bytes": 4629,
+      "sha256": "6d188acd236d0038348f181e91c419cbe1a0aa5a8671e32de7eeb2248085959d"
+    },
+    "templates/api-listener.env.example": {
+      "bytes": 408,
+      "sha256": "f59a5f45da64a0984a5231283ba873992a5cac01c4803f81e6bd158b941687be"
+    },
+    "templates/api-shared-profile.env.example": {
+      "bytes": 224,
+      "sha256": "ebf4ba9ed08338cce37051dd7a3d8a33a4d018bb292ef4a407bd5ad742af3d29"
+    },
+    "templates/connections.example.json": {
+      "bytes": 614,
+      "sha256": "f97986b9fc060b0508e9236cac15dc11cb1d4dfa4f389723edaad1473c07372e"
+    },
+    "templates/fish-settings.example.json": {
+      "bytes": 121,
+      "sha256": "0a943c27efb8f1b92ec11b766714f531bf7428b4b4519234919442ec1faf186a"
+    },
+    "templates/profile.yaml.example": {
+      "bytes": 190,
+      "sha256": "00dbd6305af8eded4fc796d3532df616628a6a4bcc1a5e7b7661427f66985b6e"
+    },
+    "templates/voice/asr-nano.example.json": {
+      "bytes": 180,
+      "sha256": "a21d1adf1b8014f9d25a6b05537a287543eb37930330660d825460e1a8414f84"
+    },
+    "templates/voice/asr-sensevoice.example.json": {
+      "bytes": 173,
+      "sha256": "adaa0d439b2bdc73f64c7440731539da2bfb141c259080467a6c27dd5415ac65"
+    },
+    "templates/voice/voxcpm2.example.json": {
+      "bytes": 370,
+      "sha256": "3803bbc82504630bf0d2bda3d60711e81e4c67e1e7f13d4960bfff32a19ea841"
+    },
+    "tools/setup-hermes-api.py": {
+      "bytes": 13551,
+      "sha256": "4291990b7a293e6a897a038629910d0f9332ed577f47494d531e3b16f6aee88e"
+    },
+    "verification.json": {
+      "bytes": 2861,
+      "sha256": "aea451589b4f8b4b8e5c66b8d1fc365b6f609bb03f9ae7d123efa662cc307c29"
+    },
+    "发布说明.md": {
+      "bytes": 3774,
+      "sha256": "449ee1c9eb72c5010419965882605447676d3cc1581da3446e171459a7969f5e"
+    },
+    "发行包核验.md": {
+      "bytes": 3216,
+      "sha256": "d92bf71b8e2b83950d532f2177c0000a338700b8795d6135132dceacf40ea323"
+    },
+    "用户接入说明.md": {
+      "bytes": 32200,
+      "sha256": "0a700e49abdde8af6ce2cae85ede222553e1f5e1a792d2dca0f3b39e20c05316"
+    }
+  }
+}
